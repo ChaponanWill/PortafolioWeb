@@ -5,10 +5,10 @@ import Card from "./Card.astro";
 ---
 
 <ul class="shadow-box">
-  <AccordionLayout title={"About"} icon={"mdi:account-badge-outline"}>
+  <AccordionLayout title={"Acerca de mi"} icon={"mdi:account-badge-outline"}>
     {CONTENT.about}
   </AccordionLayout>
-    <AccordionLayout title={"Work"} icon={"ic:baseline-work-outline"}>
+    <AccordionLayout title={"Trabajos"} icon={"ic:baseline-work-outline"}>
       {
         CONTENT.work.map((item) => {
           return (
@@ -25,7 +25,7 @@ import Card from "./Card.astro";
       }
     </AccordionLayout>
 
-    <AccordionLayout title={"Projects"} icon={"ion:md-build"}>
+    <AccordionLayout title={"Proyectos"} icon={"ion:md-build"}>
       {
         CONTENT.projects.map((item) => {
           return (
@@ -35,14 +35,14 @@ import Card from "./Card.astro";
               description={item.description}
               tags={item.tech}
               url={item.url}
-              url_name={"Open Project"}
+              url_name={"Abrir proyecto"}
             />
           );
         })
       }
     </AccordionLayout>
 
-    <AccordionLayout title={"Education"} icon={"carbon:education"}>
+    <AccordionLayout title={"Educación"} icon={"carbon:education"}>
       {
         CONTENT.education.map((item) => {
           return (
@@ -59,7 +59,7 @@ import Card from "./Card.astro";
       }
     </AccordionLayout>
 
-    <AccordionLayout title={"Certifications"} icon={"carbon:certificate"}>
+    <AccordionLayout title={"Certificaciones"} icon={"carbon:certificate"}>
       {
         CONTENT.certificates.map((item) => {
           return (
@@ -69,14 +69,14 @@ import Card from "./Card.astro";
               description={item.org}
               tags={item.description}
               url={item.url}
-              url_name={"View Certificate"}
+              url_name={"Ver certificado"}
             />
           );
         })
       }
     </AccordionLayout>
 
-    <AccordionLayout title={"Blogs/Writings"} icon={"ic:round-edit-note"}>
+    <AccordionLayout title={"Blogs"} icon={"ic:round-edit-note"}>
       {
         CONTENT.blogs.map((item) => {
           return (
@@ -92,25 +92,10 @@ import Card from "./Card.astro";
         })
       }
     </AccordionLayout>
+    <!-- --- -->
 
-    <AccordionLayout title={"Achievements"} icon={"mdi:trophy-award"}>
-      {
-        CONTENT.achievements.map((item) => {
-          return (
-            <Card
-              title={item.title}
-              timeframe={item.year}
-              description={item.decription}
-              tags=""
-              url="#"
-              url_name=""
-            />
-          );
-        })
-      }
-    </AccordionLayout>
 
-    <AccordionLayout title={"Contact"} icon={"ri:contacts-book-fill"}>
+    <AccordionLayout title={"Contacto"} icon={"ri:contacts-book-fill"}>
       {
         CONTENT.contact.map((item) => {
           return (
