@@ -43,7 +43,7 @@ export const projects = [
 		from: "2024",
 		to: "Reciente",
 		title: "Página de Administración",
-		description: "Mejorar y practicar hábilidades en TailwindCss",
+		description: "Mejorar y practicar mis hábilidades en TailwindCss",
 		url: "https://chaponanwill.github.io/Administrator/",
 		tech: "Page Manager",
 	},
