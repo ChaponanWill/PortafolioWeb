@@ -8,4 +8,4 @@ export default defineConfig({
   output: 'static',
   site: 'https://ChaponanWill.github.io',
   base: '/portafolioweb',
-});
+}); 
