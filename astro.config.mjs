@@ -7,5 +7,5 @@ export default defineConfig({
   integrations: [tailwind(), alpinejs()],
   output: 'static',
   site: 'https://ChaponanWill.github.io',
-  base: '/portafolioweb',
+  base: '/portafolioweb/',
 }); 
