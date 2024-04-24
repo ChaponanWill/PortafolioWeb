@@ -15,7 +15,7 @@ export const work = [
 		to: "Reciente",
 		role: "Técnico en informática",
 		org: "Área de imagen institucional e informática",
-		org_url: "https://munipacora.gob.pe",
+		org_url: "#",
 		location: "Pacora - Lambayeque",
 		skills: "Redes - Desarrollo de software - Diseño "
 	},
